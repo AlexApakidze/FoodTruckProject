@@ -1,10 +1,10 @@
 # FoodTruckProject
 
 
-#Description
+# Description
 
 
-#Technologies used 
+# Technologies used 
 
 
-#Lessons Learned
+# Lessons Learned
