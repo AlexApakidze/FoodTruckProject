@@ -58,7 +58,12 @@ public class FoodTruckApp {
 						bestTruck = i;
 					}
 				}
-				System.out.println(fleet[bestTruck].toString());
+				for (int i = 0; i < numberOfTrucks; i++) {
+				if (fleet[i].getRating()==fleet[bestTruck].getRating()) {
+					
+					System.out.println(fleet[i].toString());
+				}
+				}
 				continue;
 
 			case "4":// Quit
@@ -135,7 +140,7 @@ public class FoodTruckApp {
 		System.out.println("|                                 |");
 		System.out.println("|2) Average rating of food trucks.|");
 		System.out.println("|                                 |");
-		System.out.println("|3) Highest rated food truck.     |");
+		System.out.println("|3) Highest rated food truck(s).  |");
 		System.out.println("|                                 |");
 		System.out.println("|4) Quit.                         |");
 		System.out.println("|_________________________________|");
